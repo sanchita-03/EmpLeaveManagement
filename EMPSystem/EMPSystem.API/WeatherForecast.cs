@@ -2,7 +2,7 @@ namespace EMPSystem.API
 {
     public class WeatherForecast
     {
-        public DateOnly Date { get; set; }
+        public DateOnly Dates { get; set; }
 
         public int TemperatureC { get; set; }
 
