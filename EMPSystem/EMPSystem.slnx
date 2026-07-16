@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/API/">
+    <Project Path="EMPSystem.API/EMPSystem.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Core/" />
+  <Folder Name="/src/Infrastructure/" />
+</Solution>
