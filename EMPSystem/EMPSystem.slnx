@@ -3,6 +3,11 @@
   <Folder Name="/src/API/">
     <Project Path="EMPSystem.API/EMPSystem.API.csproj" />
   </Folder>
-  <Folder Name="/src/Core/" />
-  <Folder Name="/src/Infrastructure/" />
+  <Folder Name="/src/Core/">
+    <Project Path="EMPSystem.Application/EMPSystem.Application.csproj" Id="bdcbeeb6-26f8-4b9e-99eb-36b107777fde" />
+    <Project Path="EMPSystem.Domain/EMPSystem.Domain.csproj" Id="715e2cc6-e362-4b19-abd4-aaea119c0eb4" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="EMPSystem.Infrastructure/EMPSystem.Infrastructure.csproj" Id="cc47dcdc-dba5-4228-aef7-b98853e13e49" />
+  </Folder>
 </Solution>
