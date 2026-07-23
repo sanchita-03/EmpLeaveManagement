@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EMPSystem.API.Controllers
@@ -14,6 +15,9 @@ namespace EMPSystem.API.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+            //var hasher = new PasswordHasher();
+
+            //Console.WriteLine(hasher.HashPassword("Admin@1234"));
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
